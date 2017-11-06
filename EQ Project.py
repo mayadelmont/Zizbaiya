@@ -22,6 +22,6 @@ for line in EQdata:
 
 plt.xlabel("Longitude")
 plt.ylabel("Latitude")  
-
+plt.suptitle("(Zizbaiya) Current Earthquake Data")
 plt.scatter(Longitude, Latitude, alpha=0.5)
 plt.show()
